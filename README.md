@@ -1,3 +1,7 @@
+# cdk-workshop
+
+[Python ワークショップ :: AWS Cloud Development Kit (AWS CDK) Workshop](https://summit-online-japan-cdk.workshop.aws/30-python.html) を Python 3.8でやってみたもの。 (2021-11-09)
+
 
 # Welcome to your CDK Python project!
 
@@ -54,7 +58,7 @@ To add additional dependencies, for example other CDK libraries, just add to
 your requirements.txt file and rerun the `pip install -r requirements.txt`
 command.
 
-## Tutorial  
+## Tutorial
 See [this useful workshop](https://cdkworkshop.com/30-python.html) on working with the AWS CDK for Python projects.
 
 ## Useful commands
