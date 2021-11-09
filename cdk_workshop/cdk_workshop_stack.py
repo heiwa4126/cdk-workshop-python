@@ -1,6 +1,7 @@
 from aws_cdk import (
     core,
     aws_lambda as _lambda,
+    aws_apigateway as apigw,
 )
 
 class CdkWorkshopStack(core.Stack):
@@ -14,4 +15,8 @@ class CdkWorkshopStack(core.Stack):
             runtime=_lambda.Runtime.PYTHON_3_8,
             code=_lambda.Code.asset('lambda'),
             handler="hello.handler",
+        )
+        apigw.LambdaRestApi(
+            self, 'Endpoint',
+            handler=hello,
         )
