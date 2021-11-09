@@ -1,4 +1,4 @@
-# cdk-workshop
+# cdk-workshop-python
 
 [Python ワークショップ :: AWS Cloud Development Kit (AWS CDK) Workshop](https://summit-online-japan-cdk.workshop.aws/30-python.html) を Python 3.8でやってみたもの。 (2021-11-09)
 
