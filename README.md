@@ -2,6 +2,23 @@
 
 [Python ワークショップ :: AWS Cloud Development Kit (AWS CDK) Workshop](https://summit-online-japan-cdk.workshop.aws/30-python.html) を Python 3.8でやってみたもの。 (2021-11-09)
 
+記述どおりにやってうまく行かなかった部分を修正してある。
+
+CDKそのほかのバージョンは
+```
+$ cdk --version
+1.131.0 (build 7560c79)
+
+$ python -V
+Python 3.8.0
+
+$ npm -v
+6.14.15
+
+$ node -v
+v14.18.1
+```
+
 
 # Welcome to your CDK Python project!
 
