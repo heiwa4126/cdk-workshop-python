@@ -3,6 +3,7 @@
 [Python ワークショップ :: AWS Cloud Development Kit (AWS CDK) Workshop](https://summit-online-japan-cdk.workshop.aws/30-python.html) を Python 3.8でやってみたもの。 (2021-11-09)
 
 記述どおりにやってうまく行かなかった部分を修正してある。
+(cdk_workshop_stack.pyの `from cdk_workshop.hitcounter import HitCounter` のところ)
 
 CDKそのほかのバージョンは
 ```
